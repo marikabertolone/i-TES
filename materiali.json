@@ -1,0 +1,262 @@
+[
+  {
+    "produttore": "Croda",
+    "nome": "CT5",
+    "punto_fusione": 5,
+    "densita": 0.87,
+    "calore_latente": 191, 
+    "temperatura_cristallizzazione": 2.7,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT6.5",
+    "punto_fusione": 6.8,
+    "densita": 0.86,
+    "calore_latente": 184,  
+    "temperatura_cristallizzazione": 2.5,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT9.5",
+    "punto_fusione": 10,
+    "densita": 0.86,
+    "calore_latente": 185,
+    "temperatura_cristallizzazione": 10,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT15",
+    "punto_fusione": 13,
+    "densita": 0.86,
+    "calore_latente": 177,
+    "temperatura_cristallizzazione": 9.5,
+    "costo": 11.5
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT29",
+    "punto_fusione": 29,
+    "densita": 0.85,
+    "calore_latente": 207,
+    "temperatura_cristallizzazione": 26,
+    "costo": 9.75
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT32",
+    "punto_fusione": 32,
+    "densita": 0.84,
+    "calore_latente": 190,
+    "temperatura_cristallizzazione": 29.5,
+    "costo": 9.85
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT37",
+    "punto_fusione": 37,
+    "densita": 0.75,
+    "calore_latente": 204,
+    "temperatura_cristallizzazione": 35,
+    "costo": 7.05
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT53",
+    "punto_fusione": 53,
+    "densita": 0.83,
+    "calore_latente": 225,
+    "temperatura_cristallizzazione": 51,
+    "costo": 7
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT60",
+    "punto_fusione": 60,
+    "densita": 0.82,
+    "calore_latente": 217,
+    "temperatura_cristallizzazione": 59,
+    "costo": 4.99
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT74",
+    "punto_fusione": 74,
+    "densita": 0.86,
+    "calore_latente": 225,
+    "temperatura_cristallizzazione": 68,
+    "costo": 5.15 
+    
+  },
+  {
+    "produttore": "Croda",
+    "nome": "CT82",
+    "punto_fusione": 82,
+    "densita": 0.91,
+    "calore_latente": 210,
+    "temperatura_cristallizzazione": 79,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Pluss",
+    "nome": "OM14",
+    "punto_fusione": 14,
+    "densita": 0.76,
+    "calore_latente": 180,
+    "temperatura_cristallizzazione": 14,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Pluss",
+    "nome": "OM37",
+    "punto_fusione": 37,
+    "densita": 0.86,
+    "calore_latente": 179,
+    "temperatura_cristallizzazione": 37,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Pluss",
+    "nome": "OM42",
+    "punto_fusione": 42,
+    "densita": 0.86,
+    "calore_latente": 199,
+    "temperatura_cristallizzazione": 42,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Pluss",
+    "nome": "OM46",
+    "punto_fusione": 46,
+    "densita": 0.88,
+    "calore_latente": 184,
+    "temperatura_cristallizzazione": 46,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Pluss",
+    "nome": "OM50",
+    "punto_fusione": 53,
+    "densita": 0.86,
+    "calore_latente": 170,
+    "temperatura_cristallizzazione": 50,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Pluss",
+    "nome": "OM55",
+    "punto_fusione": 55,
+    "densita": 0.84,
+    "calore_latente": 188,
+    "temperatura_cristallizzazione": 55,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Pluss",
+    "nome": "OM65",
+    "punto_fusione": 65,
+    "densita": 0.85,
+    "calore_latente": 183,
+    "temperatura_cristallizzazione": 65,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220002",
+    "punto_fusione": 29,
+    "densita": 0.87,
+    "calore_latente": 240,
+    "temperatura_cristallizzazione": 27,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220005",
+    "punto_fusione": 12.5,
+    "densita": 0.86,
+    "calore_latente": 182,
+    "temperatura_cristallizzazione": 12,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220010",
+    "punto_fusione": 71,
+    "densita": 0.85,
+    "calore_latente": 290,
+    "temperatura_cristallizzazione": 71,
+    "costo": 8
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220011",
+    "punto_fusione": 88,
+    "densita": 0.85,
+    "calore_latente": 190,
+    "temperatura_cristallizzazione": 72,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220012",
+    "punto_fusione": 85,
+    "densita": 0.85,
+    "calore_latente": 240,
+    "temperatura_cristallizzazione": 80,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220013",
+    "punto_fusione": 190,
+    "densita": 0.85,
+    "calore_latente": 310,
+    "temperatura_cristallizzazione": 176,
+    "costo": 10
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220014",
+    "punto_fusione": 47,
+    "densita": 0.85,
+    "calore_latente": 250,
+    "temperatura_cristallizzazione": 47,
+    "costo": 6.20
+    
+  },
+  {
+    "produttore": "Petronas",
+    "nome": "TD0220015",
+    "punto_fusione": 57,
+    "densita": 0.85,
+    "calore_latente": 266,
+    "temperatura_cristallizzazione": 57,
+    "costo": 5.40
+    
+  }
+]
