@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Storico Ricerche</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgba(170, 193, 100, 0.1);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .filters {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+    }
+
+    select {
+      padding: 6px;
+      border: 1px solid #6c8c3c;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #6c8c3c;
+      color: black;
+      border: 1px solid #6c8c3c;
+      border-radius: 5px;
+      padding: 6px 12px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #6c8c3c;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #6c8c3c;
+      color: white;
+    }
+
+    .star {
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .section-title {
+      margin-top: 30px;
+      font-size: 1.2em;
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Storico Ricerche</h1>
+
+    <div class="filters">
+      <select id="filtroProduttore">
+        <option value="">Tutti i produttori</option>
+      </select>
+      <select id="filtroMateriale">
+        <option value="">Tutti i materiali</option>
+      </select>
+    </div>
+
+    <button onclick="window.location.href='index.html'">Home</button>
+
+    <div class="section-title">Tutte le ricerche</div>
+    <table id="tabellaStorico">
+      <thead>
+        <tr>
+          <th>Produttore</th>
+          <th>Materiale</th>
+          <th>Punto di fusione</th>
+          <th>N° Batterie</th>
+          <th>Energia richiesta</th>
+          <th>Massa PCM</th>
+          <th>Volume/batteria</th>
+          <th>Preferito</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="section-title">Preferiti</div>
+    <table id="tabellaPreferiti">
+      <thead>
+        <tr>
+          <th>Produttore</th>
+          <th>Materiale</th>
+          <th>Punto di fusione</th>
+          <th>N° Batterie</th>
+          <th>Energia richiesta</th>
+          <th>Massa PCM</th>
+          <th>Volume/batteria</th>
+          <th>Preferito</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="storico.js"></script>
+</body>
+</html>

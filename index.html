@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calcoli PCM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgba(170, 193, 100, 0.1);
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    input, select, button {
+      padding: 6px;
+      margin: 5px;
+      border: 1px solid #6c8c3c;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input.wide, select.wide {
+      width: 66%;
+    }
+
+    input.narrow, select.narrow, button {
+      width: 33%;
+    }
+
+    input[readonly] {
+      background-color: #f0f0f0;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    button {
+      background-color: #AAC164;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 1.6em;
+      text-align: center;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .row > div {
+      flex: 1;
+      min-width: 130px;
+    }
+
+    @media (max-width: 600px) {
+      input, select {
+        width: 90% !important;
+      }
+
+      .row button {
+        width: 45% !important;
+        min-width: 120px;
+      }
+
+      .nav-buttons button {
+        width: 45% !important;
+      }
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .nav-buttons button {
+      background-color: #6c8c3c;
+      color: black;
+    }
+
+    .nav-buttons button:last-child {
+      background-color: #ff8c00;
+      color: black;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Calcoli PCM</h1>
+
+    <div class="row">
+      <div>
+        <label for="produttore">Produttore:</label>
+        <select id="produttore" class="wide" onchange="aggiornaMateriali()"></select>
+      </div>
+      <div>
+        <label for="materiale">Materiale:</label>
+        <select id="materiale" class="wide" onchange="aggiornaDatiMateriale()"></select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="fusione">Punto di fusione (°C):</label>
+        <input type="text" id="fusione" class="wide" readonly />
+      </div>
+      <div>
+        <label for="costo">Costo materiale (€/kg):</label>
+        <input type="text" id="costo" class="wide" readonly />
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="densita">Densità (g/cm³):</label>
+        <input type="text" id="densita" class="wide" readonly />
+      </div>
+      <div>
+        <label for="calore">Calore latente (kJ/kg):</label>
+        <input type="text" id="calore" class="wide" readonly />
+      </div>
+    </div>
+
+    <label for="batterie">Numero batterie:</label>
+    <input type="number" id="batterie" class="narrow" />
+
+    <label for="energia">Energia richiesta (kWh):</label>
+    <input type="number" id="energia" class="narrow" />
+
+    <label for="massa_pcm">Massa PCM (kg):</label>
+    <input type="number" id="massa_pcm" class="narrow" />
+
+    <label for="costo_totale">Costo totale (€):</label>
+    <input type="text" id="costo_totale" class="narrow" readonly />
+
+    <input type="hidden" id="volume" class="narrow" readonly />
+
+    <label for="volume_batteria">Volume liquido per batteria (L):</label>
+    <input type="number" id="volume_batteria" class="narrow" readonly />
+
+    <label for="energia_volume">Energia corrispondente alla massa (kWh):</label>
+    <input type="number" id="energia_volume" class="narrow" readonly />
+
+    <div class="row">
+      <button onclick="calcola()" class="narrow">Calcola</button>
+      <button onclick="azzera()" class="narrow">Azzera</button>
+    </div>
+
+    <div class="nav-buttons">
+      <button onclick="window.location.href='storico.html'">Cronologia</button>
+      <button onclick="window.location.href='note.html'">Prodotti</button>
+    </div>
+
+    <h3 id="risultato"></h3>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
